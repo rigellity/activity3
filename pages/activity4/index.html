@@ -125,6 +125,9 @@
       const charactersContainer = document.getElementById('characters');
       charactersContainer.innerHTML = ''; 
       characters.forEach(character => {
+        console.log('Character Name:', character.name);
+    console.log('Image URL:', character.img);
+
         const characterCard = `
           <div class="col-md-4 mb-4">
             <div class="card">
